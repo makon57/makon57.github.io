@@ -34,8 +34,8 @@
 .question-container .question_number{color:#000;text-align:center}
 .question-container .question_name{margin-top:30px}
 .question-container .options{margin-top:30px}
-.question-container .option{margin-bottom:3px;background:#FFF;padding:10px;border-radius:3px}
-.question-container .enabled .option{cursor:pointer;color:#000}
+.question-container .option{margin-bottom:3px;background:#FFF;padding:10px;border-radius:3px;color:#000}
+.question-container .enabled .option{cursor:pointer}
 .question-container .enabled .option:hover{background:#25a186;color:#FFF}
 .question-container .disabled .correct .right{color:green;animation:correctAnim 0.5s 0s 2 both;animation-direction:alternate;transform:scale(2)}
 .question-container .option span{display:none;float:right}
