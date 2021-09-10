@@ -1,5 +1,14 @@
 
-<script src="https://www.wpromotions.eu/confetti.min.js"></script>
+function include(file) {
+    var script  = document.createElement('script');
+    script.src  = file;
+    script.type = 'text/javascript';
+    script.defer = true;
+
+    document.getElementsByTagName('head').item(0).appendChild(script);
+}
+
+include("https://www.wpromotions.eu/confetti.min.js")
 
 confetti.start()
 setTimeout(function(){confetti.stop();},3000)
