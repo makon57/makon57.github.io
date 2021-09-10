@@ -1623,7 +1623,7 @@ input, select, textarea {
 
 		}
 
-	#react-tag a.react-tag {
+	a.react-tag {
 		border-bottom: transparent;
 	}
 	/* #works-container div {
