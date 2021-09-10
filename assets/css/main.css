@@ -147,7 +147,7 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
-	a:not(.react-tag) {
+	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -157,7 +157,7 @@ input, select, textarea {
 		color: inherit;
 	}
 
-		a:not(.react-tag):hover {
+		a:hover {
 			border-bottom-color: transparent;
 		}
 
@@ -1624,7 +1624,7 @@ input, select, textarea {
 		}
 
 	#react-tag a.react-tag {
-		text-decoration: none;
+		border-bottom: transparent;
 	}
 	/* #works-container div {
 		display: flex;
