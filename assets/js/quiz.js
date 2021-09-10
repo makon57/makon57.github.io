@@ -1,6 +1,8 @@
 
-confetti.start()
+<script src="https://www.wpromotions.eu/confetti.min.js"></script>
 
+confetti.start()
+setTimeout(function(){confetti.stop();},3000)
 
 var _0x30e8=['INPUT','setAttribute','inner-container','createElement','\x20correct','90%','style','question\x20disabled\x20showAll','option\x20option','call','center','getElementById','question\x20disabled','questionContainer','nextBtn','\x20of\x20','srcElement','</div><br/><div>','className','question\x20enabled','<div><div><b>Result:</b></div><br/><div>','This\x20quiz\x20has\x20been\x20created\x20using\x20the\x20tool\x20<a\x20target=\x27_blank\x27\x20href=\x27https://www.htmlcodegenerator-tools.com/2019/10/html-javascript-quiz-generator-score-timer.html\x27>HTML\x20Quiz\x20Generator</a>','object','remove','parentElement','Show\x20Answers','indexOf','div','showAnswersBtn','hasOwnProperty','lastChild','right','getElementsByClassName','question_name','score','enabled','Quiz','<span\x20class=\x27right\x27>&#10004;</span><span\x20class=\x27wrong\x27>X</span>','showResetBtn','next','quiz-report','options','myLink','currentQuestion','value','question','bind','Try\x20Again','button','event','option','appendChild','target','elementId','none','textAlign','addEventListener','quizQuestions','innerHTML','block','innerContainer','question_number','length','display','type','click'];
 
