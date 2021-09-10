@@ -1628,6 +1628,7 @@ input, select, textarea {
 		flex-direction: row;
 		flex-wrap: wrap;
 		overflow-x: scroll;
+		padding-bottom: 50px;
 	}
 
 /* Footer */
