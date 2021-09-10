@@ -1623,13 +1623,13 @@ input, select, textarea {
 
 		}
 
-	#works-container div {
+	/* #works-container div {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		overflow-x: scroll;
 		padding-bottom: 50px;
-	}
+	} */
 
 /* Footer */
 
