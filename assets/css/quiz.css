@@ -29,9 +29,9 @@
 
 
 
-.question-container{max-width:1024px;background:#d5d5d5;margin:0 auto;border-radius:8px;width:100%;font-size:20px}
+.question-container{max-width:1024px;background:transparent;margin:0 auto;border-radius:8px;width:100%;font-size:20px}
 .question-container .inner-container{padding:30px}
-.question-container .question_number{color:#000;text-align:center}
+.question-container .question_number{color:#FFF;text-align:center}
 .question-container .question_name{margin-top:30px}
 .question-container .options{margin-top:30px}
 .question-container .option{margin-bottom:3px;background:#FFF;padding:10px;border-radius:3px;color:#000}
