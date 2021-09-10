@@ -1623,6 +1623,9 @@ input, select, textarea {
 
 		}
 
+	#react-tag {
+		text-decoration: none;
+	}
 	/* #works-container div {
 		display: flex;
 		flex-direction: row;
