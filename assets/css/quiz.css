@@ -11,7 +11,7 @@
 .question-container .option span{display:none;float:right}
 .question-container .disabled .correct .right,.question-container .disabled .incorrect .wrong{display:inline-block}@keyframes correctAnim{0%{color:green;transform:scale(2)}100%{color:green;transform:scale(5)}}
 .question-container .disabled .incorrect .wrong{color:red;transform:scale(1.5)}
-.question-container input[type='button']{background:#25a186;color:#FFF;cursor:pointer;padding:10px 40px;margin:20px;border:0;font-size:20px;-webkit-box-shadow:16px 17px 18px -7px rgba(18,1,18,0.61);-moz-box-shadow:16px 17px 18px -7px rgba(18,1,18,0.61);box-shadow:16px 17px 18px -7px rgba(18,1,18,0.61);transform:scale(1.1);vertical-align: middle}
+.question-container input[type='button']{background:#25a186;color:#FFF;cursor:pointer;padding:0px 40px;margin:20px;border:0;font-size:20px;-webkit-box-shadow:16px 17px 18px -7px rgba(18,1,18,0.61);-moz-box-shadow:16px 17px 18px -7px rgba(18,1,18,0.61);box-shadow:16px 17px 18px -7px rgba(18,1,18,0.61);transform:scale(1.1);vertical-align: middle}
 .question-container input[type='button']:hover{-webkit-box-shadow:0 0 0 -7px rgba(18,1,18,0.61);-moz-box-shadow:0 0 0 -7px rgba(18,1,18,0.61);box-shadow:0 0 0 -7px rgba(18,1,18,0.61);transform:scale(1)}
 .question-container .next input[type='button']{margin-top:30px}
 .question-container .enabled .next input[type='button']{background:gray;color:#d5d5d5;-webkit-box-shadow:0 0 0 -7px rgba(18,1,18,0.61);-moz-box-shadow:0 0 0 -7px rgba(18,1,18,0.61);box-shadow:0 0 0 -7px rgba(18,1,18,0.61);transform:scale(1);cursor:default}
