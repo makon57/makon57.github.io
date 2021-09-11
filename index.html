@@ -25,7 +25,22 @@
 								<h1>Manna Kong</h1>
 								<p>Software Engineer <br />
 								and <a href="https://www.crk.umn.edu" target="_blank" rel="noopener noreferrer">UMC</a> English graduate based in Minnesota, USA.</p>
-								<p id="react-tag">| Python | JavaScript <a href="#react" class="react-tag">| React |</a> Redux | AWS | SQLAlchemy | PostgreSQL | Flask | Express | Sequelize | Docker |</p>
+								<p id="react-tag">| Python | JavaScript
+									<a href="#react" class="react-tag" id="demo">
+										| React |
+									</a>
+									<script>
+										document.getElementById("demo").onclick = function() {
+											GFGfun()
+										};
+
+										function GFGfun() {
+											confetti.start();
+											setTimeout(function(){confetti.stop();},3000)
+										}
+									</script>
+
+									 Redux | AWS | SQLAlchemy | PostgreSQL | Flask | Express | Sequelize | Docker |</p>
 							</div>
 						</div>
 						<nav>
@@ -398,7 +413,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/quiz.js"></script>
-			
+			<!-- <script src="assets/js/confetti.js"></script> -->
+			<script src="https://www.wpromotions.eu/confetti.min.js"></script>
 	</body>
 
 </html>
