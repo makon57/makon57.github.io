@@ -1,3 +1,7 @@
+Hello and Welcome!
+
+I can't wait to meet you and can't wait for you to get to know a bit about me. Check out my portfolio [here](https://makon57.github.io/)!
+
 Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
